@@ -1,7 +1,22 @@
 *{
     margin: 0px;
     padding: 0px;
+
 }
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background:blue; 
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px blue;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rebeccapurple; 
+  }
 #header{
     position:sticky;
     top:0px;
